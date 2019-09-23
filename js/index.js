@@ -1,3 +1,18 @@
+let starBtn = document.getElementById("start"),
+    budgetValue =document.getElementsByClassName("budget-value") [0],
+    dayBudgetValue = document.getElementsByClassName("daybudget-value")[0],
+    levelValue = document.getElementsByClassName("level-value")[0],
+    expensesValue = document.getElementsByClassName("expenses-value")[0],
+    optionalExpensesValue = document.getElementsByClassName("optionalexpenses-value")[0],
+    incomeValue = document.getElementsByClassName("income-value")[0],
+    monthSavingsValue = document.getElementsByClassName("monthsavings-value")[0],
+    yearSavingsValue = document.getElementsByClassName("yearSavingsValue")[0],
+
+    
+
+
+
+
 let money, time;
 
 function start() {
